@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Intro to CSS - Elnatan</title>
+    <link rel="stylesheet" href="styles.css">
+    <header id="top" class="site-header">
+            <div class="brand">
+                <h1>My Dream Vacations</h1>
+                <h2>Elnatan Teaghes</h2>
+            </div>
+            <nav>
+                <a href="#favorites">Destinations</a>
+                <a href="#top">Top</a>
+                <a href="https://en.wikipedia.org/wiki/Travel" target="_tab" rel="noopener">Travel (Wikipedia)</a>
+            </nav>
+        </header>
 </head>
 <body>
-    <!-- Insert HTML Code here. -->
-</body>
-</html>
+            <section id="favorites" class="favorites">
+                <h3>Top 5 Dream Destinations</h3>
+                <ol>
+                    <li>
+                        Santorini, Greece - <a href="https://www.visitgreece.gr/" target="_blank" rel="noopener">Visit Greece</a>
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60" alt="Santorini cliff-side"/>
+                    </li>
+                    <li>
+                        Kyoto, Japan - <a href="https://www.japan.travel/en/" target="_blank" rel="noopener">Japan Travel</a>
+                        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60" alt="Kyoto temple"/>
+                    </li>
+                    <li>
+                        New Zealand - Hikes & scenery
+                    </li>
+                    <li>
+                        Iceland - Northern lights
+                    </li>
+                    <li>
+                        Costa Rica - Rainforest & beach
+                    </li>
+                </ol>
+            </section>
+
+            <section class="extras">
+                <h3>Packing List</h3>
+                <ul>
+                    <li>Comfortable shoes</li>
+                    <li>Travel adapter</li>
+                    <li>Camera</li>
+                    <li>Light jacket</li>
+                    <li>Reusable water bottle</li>
+                </ul>
+
+                <div class="feature-image">
+                    <h3>Inspiration</h3>
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60" alt="Scenic landscape"/>
+                </div>
+
+                <p>Here are a few resources to learn more about planning trips:</p>
+                <ul class="links-list">
+                    <li><a href="https://www.nationalgeographic.com/travel/" target="_blank" rel="noopener">National Geographic Travel</a></li>
+                    <li><a href="https://www.lonelyplanet.com/" target="_blank" rel="noopener">Lonely Planet</a></li>
+                    <li><a href="https://9-1-1.fandom.com/wiki/9-1-1:_Lone_Star" target="_blank" rel="noopener">(example external link to a fandom)</a></li>
+                </ul>
+
+                <p><a href="#top">Back to Top</a></p>
+
+                <button class="visit-button" onclick="window.location.href='https://www.nationalgeographic.com/travel/';">Explore NatGeo Travel</button>
+            </section>
+
+        <footer class="site-footer">
+            <p>&copy; 2025 Elnatan Teaghes — Intro to CSS project. Contact: <a href="mailto:elnatan@example.com">elnatan@example.com</a></p>
+            <p>Project resources: <a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a></p>
+        </footer>
